@@ -26,8 +26,23 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@layer base {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply active:outline-none;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
