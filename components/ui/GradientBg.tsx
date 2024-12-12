@@ -56,7 +56,29 @@ export const BackgroundGradientAnimation = ({
     document.body.style.setProperty("--pointer-color", pointerColor);
     document.body.style.setProperty("--size", size);
     document.body.style.setProperty("--blending-value", blendingValue);
-  }, []);
+
+    return () => {
+      document.body.style.removeProperty("--gradient-background-start");
+      document.body.style.removeProperty("--gradient-background-end");
+      document.body.style.removeProperty("--first-color");
+      document.body.style.removeProperty("--second-color");
+      document.body.style.removeProperty("--third-color");
+      document.body.style.removeProperty("--fourth-color");
+      document.body.style.removeProperty("--fifth-color");
+      document.body.style.removeProperty("--pointer-color");
+      document.body.style.removeProperty("--size");
+      document.body.style.removeProperty("--blending-value");
+    };
+  }, [gradientBackgroundStart,
+    gradientBackgroundEnd,
+    firstColor,
+    secondColor,
+    thirdColor,
+    fourthColor,
+    fifthColor,
+    pointerColor,
+    size,
+    blendingValue,]);
 
   useEffect(() => {
     function move() {
