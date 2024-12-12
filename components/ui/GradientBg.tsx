@@ -56,20 +56,7 @@ export const BackgroundGradientAnimation = ({
     document.body.style.setProperty("--pointer-color", pointerColor);
     document.body.style.setProperty("--size", size);
     document.body.style.setProperty("--blending-value", blendingValue);
-
-    return () => {
-      document.body.style.removeProperty("--gradient-background-start");
-      document.body.style.removeProperty("--gradient-background-end");
-      document.body.style.removeProperty("--first-color");
-      document.body.style.removeProperty("--second-color");
-      document.body.style.removeProperty("--third-color");
-      document.body.style.removeProperty("--fourth-color");
-      document.body.style.removeProperty("--fifth-color");
-      document.body.style.removeProperty("--pointer-color");
-      document.body.style.removeProperty("--size");
-      document.body.style.removeProperty("--blending-value");
-    };
-  }, [gradientBackgroundStart,
+  }, [ gradientBackgroundStart,
     gradientBackgroundEnd,
     firstColor,
     secondColor,
@@ -93,7 +80,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [tgX, tgY, curX, curY]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
     if (interactiveRef.current) {
@@ -111,7 +98,7 @@ export const BackgroundGradientAnimation = ({
   return (
     <div
       className={cn(
-        "h-full w-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
+        "w-full h-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
         containerClassName
       )}
     >
