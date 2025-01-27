@@ -74,66 +74,66 @@ export const navItems = [
       id: 1,
       title: "SummarEase -  An AI article summarizer",
       des: "An open-source article summarization tool that converts extensive articles into succinct summaries.",
-      img: "/p1.svg",
+      img: "/p1.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://ai-summarizer-by-precious.netlify.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "StoreIt - Online Storage App",
+      des: "A storage management platform with up to 20Gb of free storage",
+      img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/Idemudia-Precious/podcaster",
+      link: "https://store-it-by-presh.vercel.app/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "AI Image Processing Application",
+      des: "A real Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/Idemudia-Precious/Presh_Imaginify",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      title: "An AI Podcast application",
+      des: "A AI enabled application for generating podcasts from text provided",
+      img: "/p3.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Idemudia-Precious/gpt3_jsm",
-    },
+      link: "https://github.com/Idemudia-Precious/podcaster",
+    }
   ];
   
   export const testimonials = [
     {
       quote:
         "Collaborating with Precious was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Precious' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Precious is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Michelle",
+      title: "Azany",
     },
     {
       quote:
         "Collaborating with Precious was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Precious' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Precious is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Michelle",
+      title: "Azany",
     },
     {
       quote:
         "Collaborating with Precious was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Precious' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Precious is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Michelle",
+      title: "Azany",
     },
     {
       quote:
         "Collaborating with Precious was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Precious' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Precious is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Michelle",
+      title: "Azany",
     },
     {
       quote:
         "Collaborating with Precious was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Precious' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Precious is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Michelle",
+      title: "Azany",
     },
   ];
   
@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Idemudia-Precious"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/idemudia_p"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/precious-idemudia/"
     },
   ];
