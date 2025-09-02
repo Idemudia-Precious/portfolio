@@ -92,7 +92,7 @@ export const navItems = [
       des: "A real Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/Idemudia-Precious/Presh_Imaginify",
+      link: "https://presh-imaginify.vercel.app/",
     },
     {
       id: 4,
