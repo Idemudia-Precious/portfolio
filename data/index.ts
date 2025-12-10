@@ -106,7 +106,7 @@ export const navItems = [
       id: 5,
       title: "An AI Tutor Agent",
       des: "Get tutored on any subject selected by your personalized AI agent",
-      img: "/p4.png",
+      img: "/p4.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Idemudia-Precious/podcaster",
     }
