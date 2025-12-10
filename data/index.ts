@@ -96,6 +96,14 @@ export const navItems = [
     },
     {
       id: 4,
+      title: "Azany E-commecrce shopping",
+      des: "An E-commerce website for Azany.",
+      img: "/p5.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://shopazany.com",
+    },
+    {
+      id: 5,
       title: "An AI Podcast application",
       des: "A AI enabled application for generating podcasts from text provided",
       img: "/p3.png",
@@ -103,12 +111,12 @@ export const navItems = [
       link: "https://github.com/Idemudia-Precious/podcaster",
     },
     {
-      id: 5,
+      id: 6,
       title: "An AI Tutor Agent",
       des: "Get tutored on any subject selected by your personalized AI agent",
       img: "/p4.jpg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Idemudia-Precious/podcaster",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+      link: "https://github.com/Idemudia-Precious/tutor-agent",
     }
   ];
   
